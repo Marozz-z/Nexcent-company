@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexcent Bootstrap Landing Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <!-- navbar: creates navigation container -->
+    <!-- navbar-expand-lg: expands at large breakpoint -->
+    <!-- navbar-light: light color scheme -->
+    <!-- bg-white: white background -->
+    <!-- shadow-sm: small shadow effect -->
+    <div class="container"> <!-- container: responsive fixed-width container -->
+      <a class="navbar-brand fw-bold" href="#">
+        <!-- navbar-brand: styles the brand/logo -->
+        <!-- fw-bold: makes text bold -->
+        <i class="fas fa-shapes" style="color: #00c853;"></i>  Nexcent
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <!-- navbar-toggler: styles mobile menu button -->
+        <span class="navbar-toggler-icon"></span> <!-- navbar-toggler-icon: hamburger icon -->
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- collapse: makes content collapsible -->
+        <!-- navbar-collapse: container for collapsible content -->
+        <ul class="navbar-nav ms-auto">
+          <!-- navbar-nav: container for nav items -->
+          <!-- ms-auto: right-aligns nav items (margin-start auto) -->
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <!-- nav-item: individual navigation item -->
+          <!-- nav-link: styles navigation links -->
+          <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Feature</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Testimonial</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+          <li class="nav-item" id="1"><a class="btn btn-success ms-2" href="#">Login</a></li>
+          <!-- btn: base button class -->
+          <!-- btn-success: green success button -->
+          <!-- ms-2: margin left (start) size 2 -->
+          <li class="nav-item"><a class="btn btn-outline-success ms-2" href="#">Sign Up</a></li>
+          <!-- btn-outline-success: outlined green button -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section text-center">
+    <!-- text-center: centers text horizontally -->
+    <div class="container">
+      <h1 class="display-5 fw-bold">
+        <!-- display-5: large heading size -->
+        <!-- fw-bold: bold font weight -->
+        Lessons and insights <span class="text-success">from 8 years</span>
+        <!-- text-success: green text color -->
+      </h1>
+      <p class="lead">
+        <!-- lead: makes paragraph stand out -->
+        Where to grow your business as a photographer: site or social media?
+      </p>
+      <a href="#" class="btn btn-success">Register</a>
+    </div>
+  </section>
+
+  <!-- Clients Logos -->
+  <section class="text-center section-light">
+    <div class="container">
+      <h5 class="mb-4">
+        <!-- mb-4: margin bottom size 4 -->
+        Our Clients
+      </h5>
+      <p>We have been working with some Fortune 500+ clients</p>
+      <div class="d-flex justify-content-center flex-wrap gap-4 mt-4">
+        <!-- d-flex: creates flex container -->
+        <!-- justify-content-center: centers horizontally -->
+        <!-- flex-wrap: allows items to wrap -->
+        <!-- gap-4: adds spacing between items -->
+        <!-- mt-4: margin top size 4 -->
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="section-light">
+    <div class="container text-center">
+      <h2 class="fw-bold">Manage your entire community in a single system</h2>
+      <p class="mb-5">Who is Nextcent suitable for?</p>
+      <div class="row g-4">
+        <!-- row: creates grid row -->
+        <!-- g-4: gutter spacing between columns -->
+        <div class="col-md-4">
+          <!-- col-md-4: column takes 4/12 width at medium breakpoint -->
+          <div class="p-4 border rounded">
+            <!-- p-4: padding all around size 4 -->
+            <!-- border: adds border -->
+            <!-- rounded: rounded corners -->
+            <i class="fas fa-users"></i>
+            <h5 class="mt-3">Membership Organisations</h5>
+            <!-- mt-3: margin top size 3 -->
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 border rounded">
+            <i class="fas fa-building"></i>
+            <h5 class="mt-3">National Associations</h5>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 border rounded">
+            <i class="fas fa-hands"></i>
+            <h5 class="mt-3">Clubs And Groups</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+
+    <div class="container py-5">
+        <!-- py-5: padding top and bottom size 5 -->
+        <div class="row align-items-center">
+            <!-- align-items-center: vertically centers flex items -->
+            <div class="col-12 col-md-4">
+                <!-- col-12: full width on mobile -->
+                <!-- col-md-4: 4/12 width at medium breakpoint -->
+                <div class="illustration">
+                    <span><img src="/images/img.png" alt="success"></span>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 text-content">
+                <h2 class="fw-bold">The unseen of spending three years at Pixelgrade</h2>
+                <p class="text-muted">
+                    <!-- text-muted: gray/muted text color -->
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                </p>
+            </div>
+            <div class="col-12 col-md-3 text-center">
+                <a href="#" class="btn btn-success ms-2">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+  <!-- Stats Section -->
+  <section class="text-center section-light">
+    <div class="container">
+      <h5 class="display-5 fw-bold">Helping a local <span class="text-success">business reinvent itself</span></h5>
+      <br>
+      <div class="row mt-4">
+        <div class="col-md-3">
+          <h6 class="fw-bold text-success">2,245,341</h6>
+          <i class="bi bi-people stats-icon"></i>
+          <p>Members</p>
+        </div>
+        <div class="col-md-3">
+          <h6 class="fw-bold text-success">46,328</h6>
+          <i class="bi bi-calendar-check stats-icon"></i>
+          <p>Clubs</p>
+        </div>
+        <div class="col-md-3">
+          <h6 class="fw-bold text-success">828,867</h6>
+          <i class="bi bi-clock stats-icon"></i>
+          <p>Event Bookings</p>
+        </div>
+        <div class="col-md-3">
+          <h6 class="fw-bold text-success">1,926,436</h6>
+          <i class="bi bi-credit-card stats-icon"></i>
+          <p>Payments</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-4">
+                <div class="illustration">
+                    <span><img src="/images/img2.png" alt="design"></span>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 text-content">
+                <h2 class="fw-bold">How to design your site footer like we did</h2>
+                <p class="text-muted">
+                    Donec eros justo, faucibus eget tristique ultricies...
+                </p>
+            </div>
+            <div class="col-12 col-md-3 text-center">
+                <a href="#" class="btn btn-success ms-2">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <!-- mb-5: margin bottom size 5 -->
+            <h2 class="header-text fw-bold">Caring is the new marketing</h2>
+            <p class="text-muted">The Nexcent blog is the best place to read...</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-12 col-md-4">
+                <div class="card card-custom">
+                    <!-- card: creates card container -->
+                    <img src="/images/img3.png" class="card-img-top" alt="Streamlined Processes">
+                    <!-- card-img-top: styles top card image -->
+                    <div class="card-body text-center">
+                        <!-- card-body: container for card content -->
+                        <h5 class="card-title">Creating Streamlined Safeguarding Processes</h5>
+                        <!-- card-title: styles card title -->
+                        <a href="#" class="btn btn-success ms-2">Readmore →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card card-custom">
+                    <img src="/images/img4.png" class="card-img-top" alt="Safeguarding Responsibilities">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">What are your safeguarding responsibilities...</h5>
+                        <a href="#" class="btn btn-success ms-2">Readmore →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card card-custom">
+                    <img src="/images/img5.png" class="card-img-top" alt="Triathlon Membership">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Revamping the Membership Model...</h5>
+                        <a href="#" class="btn btn-success ms-2">Readmore →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </section>
+  <section class="hero-section text-center">
+    <h1 class="display-5 fw-bold">Pellentesque suscipit fringilla libero eu</h1>
+    <br><br>
+    <button class="btn btn-success ms-2"><a href="#1" class="tt">Get a Demo</a></button>
+  </section>
+  
+
+  <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Logo and Copyright -->
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <!-- mb-md-0: removes margin bottom at medium breakpoint -->
+                    <div class="logo mb-3">
+                        <p class="t"><i class="fas fa-shapes" style="color: #00c853;"></i>  Nexcent</p>
+                    </div>
+                    <p>Copyright © 2020 Nexcent Ltd. <br>All rights reserved</p>
+                    <div class="social-icons mt-3">
+                        <!-- mt-3: margin top size 3 -->
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <!-- Company Links -->
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="mb-3">Company</h5>
+                    <a href="#" class="text">About us</a>
+                    <br>
+                    <a href="#" class="text">Blog</a>
+                    <br>
+                    <a href="#" class="text">Contact us</a>
+                    <br>
+                    <a href="#" class="text">Pricing</a>
+                    <br>
+                    <a href="#" class="text">Testimonials</a>
+                </div>
+                <!-- Support Links -->
+                <div class="col-md-4">
+                    <h5 class="mb-3">Support</h5>
+                    <a href="#" class="text">Help center</a>
+                    <br>
+                    <a href="#" class="text">Terms of service</a>
+                    <br>
+                    <a href="#" class="text">Legal</a>
+                    <br>
+                    <a href="#" class="text">Privacy policy</a>
+                    <br>
+                    <a href="#" class="text">Status</a>
+                </div>
+                <!-- Stay Up to Date -->
+                <div class="col-12 col-md-4 mt-4 mt-md-0">
+                    <!-- mt-md-0: removes margin top at medium breakpoint -->
+                    <h5 class="mb-3">Stay up to date</h5>
+                    <div class="input-group">
+                        <!-- input-group: container for input with button -->
+                        <input type="email" class="form-control" placeholder="Your email address" aria-label="Your email address">
+                        <!-- form-control: styles form inputs -->
+                        <button class="btn btn-outline-secondary" type="button">
+                            <!-- btn-outline-secondary: outline secondary button -->
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

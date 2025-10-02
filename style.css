@@ -1,0 +1,78 @@
+body { 
+    font-family: 'Inter', sans-serif; 
+}
+.hero-section { 
+    padding: 80px 0; 
+    background-color: #f8f9fa; 
+}
+.section-light { 
+    background-color: #f8f9fa; 
+    padding: 60px 0; 
+}
+.section-dark { 
+    background-color: #212529; 
+    color: white; 
+    padding: 60px 0; 
+}
+.footer { 
+    background-color: #2A2F36; 
+    color: white; 
+    padding: 40px 0;
+}
+.icon-box img { 
+    height: 48px; 
+    margin: 0 10px; 
+}
+.card-img-top { 
+    max-height: 180px; 
+    object-fit: cover; 
+}
+.text{
+    color: #aaaaaa;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+.t{
+    
+    font-size: 30px;
+    font-weight: bold;
+}
+.tt{
+    color: white;
+    text-decoration: none;
+}
+.illustration {
+    background-color: #f8f9fa; 
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #28a745; /* Green text for placeholder */
+}
+.text-content {
+    color: #495057; /* Dark gray text to match the image */
+}
+
+
+.card-custom {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: #f8f9fa;
+    
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.header-text {
+    color: #495057; /* Dark gray text */
+}
+
+
+
+
+
+
